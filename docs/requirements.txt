@@ -1,4 +1,4 @@
-solar-theme
+insegel
 sphinxcontrib-nwdiag
 sphinxcontrib.blockdiag
 sphinxcontrib.seqdiag
