@@ -74,9 +74,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'alabaster'
 
 #---sphinx-themes-----
-html_theme = 'solar_theme'
-import solar_theme
-html_theme_path = [solar_theme.theme_path]
+#html_theme = 'solar_theme'
+html_theme = 'sphinxdoc'
+#import solar_theme
+#html_theme_path = [solar_theme.theme_path]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
