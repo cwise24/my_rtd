@@ -1,7 +1,7 @@
 Section 1
 =========
 
-This is not necessarily a module of training, this is a reference to all pieces that went into this build and references for anyone wanting to build their own RTD site. 
+This is a reference to all pieces that went into this build and references for anyone wanting to build their own RTD site. 
 
 .. toctree::
    :maxdepth: 1
