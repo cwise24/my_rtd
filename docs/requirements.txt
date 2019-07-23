@@ -1,4 +1,4 @@
-insegel
+sphinx_adc_theme
 sphinxcontrib-nwdiag
 sphinxcontrib.blockdiag
 sphinxcontrib.seqdiag
