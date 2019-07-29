@@ -30,6 +30,8 @@ To navigate between tabs use the keys
  * gT
  * {n}gt where {n} is equal to the tab you want to go to  (i.e. 2gt will take you to second tab)
 
+Use ``:tabonly`` to close all tabs but the currently selected one
+
 Go back in time to earlier versions
 
 ::
