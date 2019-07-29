@@ -28,6 +28,7 @@ Now both files will show
 To navigate between tabs use the keys
  * gt
  * gT
+ * {n}gt where {n} is equal to the tab you want to go to  (i.e. 2gt will take you to second tab)
 
 Go back in time to earlier versions
 
@@ -51,6 +52,14 @@ Examples:
    :scale: 50%
    :align: center
 .. centered:: Fig 5
+
+One other cool feature if you are using vim vs an IDE, setting up a ``.vimrc`` file to add line numbers
+
+::
+
+    vim .vimrc
+
+    :set nu
 
 Now, we have all this content (these modules built on RTD) and so many spelling errors everywhere....
 
