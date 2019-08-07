@@ -22,7 +22,7 @@ copyright = '2019, Chad Wise'
 author = 'Chad Wise'
 
 # The full version, including alpha/beta/rc tags
-release = '.1'
+release = '.6'
 
 
 # -- General configuration ---------------------------------------------------
@@ -42,6 +42,7 @@ extensions = [
     'sphinxcontrib.nwdiag',
     'sphinxcontrib.rackdiag',
     'sphinxcontrib.packetdiag',
+    'sphinxcontrib.blockdiag',
     'sphinx.ext.todo'
 ]
 
