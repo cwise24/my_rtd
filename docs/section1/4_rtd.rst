@@ -205,6 +205,7 @@ Edit the conf.py file to include new extensions::
     'sphinxcontrib.nwdiag',
     'sphinxcontrib.rackdiag',
     'sphinxcontrib.packetdiag',
+    'sphinxcontrib.blockdiag',
      'sphinx.ext.todo'
      ]
 
@@ -288,6 +289,39 @@ Or highlight groups
              }
         }
     }
+
+Or a Block Diagram
+::
+
+    .. blockdiag::
+   
+       blockdiag {
+    
+        default_node_color = lightyellow;
+        #default_linecolor = magenta;
+        default_textcolor = black;
+        default_shape = roundedbox;
+        
+        Inventory -> Play;
+        Pass.yml -> ansible.cfg  [label = "Encrypt", color = "green" ];
+        ansible.cfg -> Play  [label = "Decrypt", color = "red" ];
+        Play -> Target [label = "SSH" ];
+        }
+
+.. blockdiag::
+   
+    blockdiag {
+    
+        default_node_color = lightyellow;
+        #default_linecolor = magenta;
+        default_textcolor = black;
+        default_shape = roundedbox;
+        
+        Inventory -> Play;
+        Pass.yml -> ansible.cfg  [label = "Encrypt", color = "green" ];
+        ansible.cfg -> Play  [label = "Decrypt", color = "red" ];
+        Play -> Target [label = "SSH" ];
+        }
 
 Rack El 
 ^^^^^^
