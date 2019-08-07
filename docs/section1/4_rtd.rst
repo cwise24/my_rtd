@@ -330,7 +330,7 @@ Rack El
 
     .. rackdiag::
 
-   rackdiag {
+       rackdiag {
        rack {
        //define height of rack
        8U;
@@ -341,7 +341,7 @@ Rack El
        2: UPS
        7: TOR Switch [10A]  //define Amps
        8: Fuse Panel
-      }
+       }
       
        rack {
        8U;
@@ -353,7 +353,7 @@ Rack El
        7: TOR Switch 
        8: Fuse Panel
        }
-   }
+       }
 
 .. rackdiag::
 
