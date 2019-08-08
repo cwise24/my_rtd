@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'My Guide to rtd'
+project = 'My Guide to RTD'
 copyright = '2019, Chad Wise'
 author = 'Chad Wise'
 
