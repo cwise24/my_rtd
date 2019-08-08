@@ -1,7 +1,7 @@
 Section 1
 =========
 
-This is a reference to all pieces that went into this build and references for anyone wanting to build their own RTD site. 
+This is a reference to all pieces that went into this build and references for anyone wanting to build their own RTD site and for me to document what I had to learn.
 
 .. toctree::
    :maxdepth: 1
