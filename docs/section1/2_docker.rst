@@ -39,3 +39,10 @@ More of a Linux feature, but one of my favorite aliases to use for Docker to sho
 ::
 
     alias dip='docker inspect -f '\''{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'\'' '
+
+Usage
+
+::
+
+    # dip mycontainer
+    # 172.17.0.3
