@@ -32,3 +32,10 @@ Some other useful docker commands
     docker start                                                        { start a stopped container }
     docker stop                                                         { stop a running container }
     docker restart                                                      { restart a running container }
+    docker ps -a                                                        { show all containers; default is only running }
+
+More of a Linux feature, but one of my favorite aliases to use for Docker to show the IP address using the container name
+
+::
+
+    alias dip='docker inspect -f '\''{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'\'' '
