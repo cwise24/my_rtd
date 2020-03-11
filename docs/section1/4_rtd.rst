@@ -431,7 +431,7 @@ Embed video
    .. raw:: html 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2sjqTHE0zok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Using the `.. raw` you can click the share from your YouTube video then select *embed* and copy the iframe code over
+Using the ``.. raw`` you can click the share from your YouTube video then select *embed* and copy the iframe code over
 
 Something quoted [#]_
 
