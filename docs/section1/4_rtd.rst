@@ -420,6 +420,18 @@ Links and References
 
     `Link <www.google.com>`_
 
+Link multiple words (can also use for single word)
+
+`This site`_
+
+.. _This site: https://www.crashed.dev
+
+::
+
+  `This site`_
+
+  .. _This site: https://www.crashed.dev
+
 Embed video
 
 .. raw:: html
