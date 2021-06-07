@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'My Guide to RTD'
-copyright = '2019, Chad Wise'
+copyright = '2021, Chad Wise'
 author = 'Chad Wise'
 
 # The full version, including alpha/beta/rc tags
-release = '.6'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -47,7 +47,7 @@ extensions = [
 ]
 
 nwdiag_fontpath = '/usr/share/fonts/truetype/ipafont/ipagp.ttf'
-todo_include_todos=True
+todo_include_todos = True
 
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
@@ -74,7 +74,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 #html_theme = 'alabaster'
 
-#---sphinx-themes-----
+# ---sphinx-themes-----
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
