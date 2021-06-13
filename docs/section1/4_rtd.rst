@@ -67,6 +67,17 @@ I used individual folders for each module and in this example I will cover ``mod
 .. literalinclude:: module3.rst 
    :linenos:
 
+Font Color 
+~~~~~~~~~
+
+.. role:: green 
+
+:green:`green font`
+
+:: 
+    .. role:: green 
+
+    :green:`green`
 
 Bullets
 ~~~~~~
