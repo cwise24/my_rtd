@@ -71,13 +71,27 @@ Roles
 ~~~~~~~~~
 .. role:: green 
 
-:green:`green font`
+.. code-block:: css
+   :caption: static.css
+
+   .green {
+      color: green;
+   }
+
+Add this function to your ``conf.py``
+
+::
+
+   def setup(app):
+    app.add_css_file('css/static.css')
+
+To create :green:`green font`, you'll need to add your custom css file to the ``_static`` folder and define you font colors. You can then define your role below:
 
 :: 
 
     .. role:: green 
 
-    :green:`green`
+    :green:`green font`
 
 
 Bullets
