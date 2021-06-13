@@ -70,9 +70,7 @@ I used individual folders for each module and in this example I will cover ``mod
 Roles 
 ~~~~~~~~~
 
-.. role:: green 
-
-:green:`green font`
+:textcolor:`<#00ff00> green font`
 
 :: 
 
