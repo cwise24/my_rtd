@@ -26,7 +26,9 @@ Now both files will show
    :scale: 60%
    :align: center
 .. centered:: Fig 2
+
 To navigate between tabs use the keys
+
  * gt
  * gT
  * {n}gt where {n} is equal to the tab you want to go to  (i.e. 2gt will take you to second tab)
