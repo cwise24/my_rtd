@@ -93,12 +93,6 @@ To create :green:`green font`, you'll need to add your custom css file to the ``
    .. role:: green 
    To create :green:`green font`, you'll need to add your custom css file to the ``_static`` folder
 
-:: 
-
-    .. role:: green 
-
-    :green:`green font`
-
 
 Bullets
 ~~~~~~
