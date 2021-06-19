@@ -5,7 +5,7 @@ Some VIM features I used for this project
 
 ::
 
-    Shift +^            { beginning of line }
+    Shift + ^            { beginning of line }
     Shift + G           { last line }
     Shift + $           { end of line }
     Shift + V           { block editor }
@@ -41,18 +41,18 @@ Go back in time to earlier versions
 
 Examples:
 
-.. figure:: imgs/time1.png
-   :scale: 50%
+.. image:: imgs/time1.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 3
 
-.. figure:: imgs/time2.png
-   :scale: 50%
+.. image:: imgs/time2.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 4
 
-.. figure:: imgs/time3.png
-   :scale: 50%
+.. image:: imgs/time3.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 5
 
@@ -87,7 +87,7 @@ Or as a one-liner::
 
 Within VIM we add the directive ``:set spell spelllang=en_us`` and it will highlight words
 
-.. figure:: imgs/vim_spell.png
-   :scale: 50%
+.. image:: imgs/vim_spell.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 6
