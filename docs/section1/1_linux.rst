@@ -5,6 +5,7 @@ Some VIM features I used for this project
 
 ::
 
+    Shift +^            { beginning of line }
     Shift + G           { last line }
     Shift + $           { end of line }
     Shift + V           { block editor }
@@ -14,15 +15,15 @@ Some VIM features I used for this project
 
 To edit files in VIM with tabs use the command  ``:tabedit <filename>``
 
-.. figure:: imgs/tabedit1.png
-   :scale: 50%
+.. image:: imgs/tabedit1.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 1
 
 Now both files will show
 
-.. figure:: imgs/tabedit2.png
-   :scale: 50%
+.. image:: imgs/tabedit2.png
+   :scale: 60%
    :align: center
 .. centered:: Fig 2
 To navigate between tabs use the keys
