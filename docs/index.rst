@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 My RTD
-===========================================
+=======
 
-Here are my 'lessons learned' while working with sphinx/rtd
+While building my automation class, I also put together this project. Covering Linux, Docker, how to use Markdown and build your own Read The Docs.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
    :glob:
    
