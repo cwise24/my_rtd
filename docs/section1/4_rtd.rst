@@ -87,6 +87,12 @@ Add this function to your ``conf.py``
 
 To create :green:`green font`, you'll need to add your custom css file to the ``_static`` folder and define you font colors. You can then define your role below:
 
+.. code-block:: rst 
+   :caption: role 
+
+   .. role:: green 
+   To create :green:`green font`, you'll need to add your custom css file to the ``_static`` folder
+
 :: 
 
     .. role:: green 
