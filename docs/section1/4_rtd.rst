@@ -109,6 +109,40 @@ Bullets
     * item
     - item
 
+Tables
+~~~~~~~
+
+.. list-table:: Table Title
+   :align: center
+   :header-rows: 1
+
+   * - Column 1 header 
+     - Example 
+     - Output 
+   * - Column 2 header 
+     - `$.data[0].gid`
+     - 001
+   * - Column 3 header 
+     - `$.['data'][0]['gid']`
+     - 001
+
+.. code-block:: bash
+   :linenos:
+
+   .. list-table:: Table Title
+   :align: center
+   :header-rows: 1
+
+   * - Column 1 header 
+     - Example 
+     - Output 
+   * - Column 2 header 
+     - `$.data[0].gid`
+     - 001
+   * - Column 3 header 
+     - `$.['data'][0]['gid']`
+     - 001
+
 Images/Figures
 ~~~~~~~~~~~~~
 
