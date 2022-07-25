@@ -1,3 +1,4 @@
 sphinxcontrib-nwdiag
-sphinxcontrib.blockdiag
-sphinxcontrib.seqdiag
+sphinxcontrib-blockdiag
+sphinxcontrib-seqdiag
+funcparserlib == 1.0.0a0
