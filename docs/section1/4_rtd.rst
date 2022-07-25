@@ -134,14 +134,14 @@ Tables
    :header-rows: 1
 
    * - Column 1 header 
-     - Example 
-     - Output 
-   * - Column 2 header 
-     - `$.data[0].gid`
-     - 001
-   * - Column 3 header 
-     - `$.['data'][0]['gid']`
-     - 001
+     - Column 2 header 
+     - Column 3 header 
+   * - Column 1 row 1 
+     - Column 2 row 1
+     - Columna 3 row 1
+   * - Column 1 row 2 
+     - Column 2 row 2
+     - Column 3 row 2
 
 Images/Figures
 ~~~~~~~~~~~~~
