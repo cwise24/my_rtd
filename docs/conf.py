@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'My Guide to RTD'
-copyright = '2021, Chad Wise'
+copyright = '2023, Chad Wise'
 author = 'Chad Wise'
 
 # The full version, including alpha/beta/rc tags
